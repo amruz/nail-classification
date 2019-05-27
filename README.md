@@ -21,9 +21,9 @@ split_folders <folder/path/with/images> --output <output/folder/path> --ratio .8
 
 
 ```
-cd <working-directory>
+#cd <working-directory>
 git clone https://github.com/amruz/nail-classification.git
-cd nail-classification
+#cd nail-classification
 # Change the input arguments if needed in config.ini file eg: dataset path 
 python3 nail-classifier.py
 
