@@ -26,7 +26,7 @@ git clone https://github.com/amruz/nail-classification.git
 #cd nail-classification
 # Change the input arguments if needed in config.ini file eg: dataset path 
 python3 nail-classifier.py
-# To change the mode to test or predict change the learning_phase param in config file
+# To change the mode to test or predict change the phase param in config file
 
 ``` 
 
