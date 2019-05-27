@@ -1,7 +1,7 @@
 # Nail Classifier
 
 CNN classifier for quality control of nails. To classify good and bent nails.
-Transfer learning technique is adopted. Since the dataset is small and is different from the public domain datasets feature extraction of vgg16 and vgg19 is adopted. Two diffrent methods are tested.
+Transfer learning technique is adopted. The dataset consists of 100 images in both domains. Since the dataset is small and is different from the public domain datasets feature extraction of vgg16 and vgg19 is adopted. Two diffrent methods are tested.
 * extracting features from the convolutional base layer of VGG network and training a custom classifier on top of it.(refer nail-classifier.py)
 * extracting the features of the first 3 layers (earlier layers) of VGG network and training a custom classifier on top of it.(refer vgg16-early-extract.py)
 
@@ -26,6 +26,7 @@ git clone https://github.com/amruz/nail-classification.git
 #cd nail-classification
 # Change the input arguments if needed in config.ini file eg: dataset path 
 python3 nail-classifier.py
+# To change the mode to test or predict change the learning_phase param in config file
 
 ``` 
 
