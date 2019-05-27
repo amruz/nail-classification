@@ -1,0 +1,6 @@
+keras
+theano
+flask
+gevent
+pillow
+requests
